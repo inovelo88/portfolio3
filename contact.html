@@ -6,33 +6,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="contact.html" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="contactstyle.css" />
 	<script src="https://kit.fontawesome.com/12ea72b05c.js" crossorigin="anonymous"></script>
 	<title>Contact Information</title>
 </head>
-
 <body>
-	<section id="contactinfo">
+	
+	<section id="contact-section">
 		<div class="container">
 			<h1>Contact Information</h1>
-			<p>Please email me with any questions.</p>
-			<li>Email:iyn88@yahoo.com</li>
-		</div>
-		
-		<div class="contact-form">
-			<i class="fa fa-phone"></i><span class="form-info">(626)808-3127</span><br>
-			<i class="fa fa-envelope"></i><span class="form-info">iyn88@yahoo.com</span><br>
-		</div>
+			<p id="contactpar">Please email me with any questions</p>
+			<div class="contact-form">
+
 		<div>
-			<form>
-				<input type="text" placeholder="First Name">
-				<input type="text" placeholder="Last Name">
-				<input type="Email" placeholder="Email">
-				<input type="text" placeholder="Email Subject">
-				<textarea name="message" placeholder="Comments" rows="5"></textarea>
-				<button class="submit">Send to Irene</button>
-</form>
+		<i class="fa fa-phone"></i><span class="form-info">(626)808-3127</span><br>
+		<i class="fa fa-envelope"></i><span class="form-info">iyn88@yahoo.com</span><br>
 		</div>
+
+		<div>
+			<form action="mailto:iyn88@yahoo.com" method="post" enctype="text/plain">
+				<input type="text" name="First Name" placeholder="First Name">
+				<input type="text" name="Last Name"placeholder="Last Name">
+				<input type="Email" name="Email"placeholder="Email">
+				<textarea name="message" placeholder="Comments" rows="5"></textarea>
+				<button class="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+	</div>
 	</section>
 
 </body>
