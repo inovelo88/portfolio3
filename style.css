@@ -27,8 +27,9 @@ nav{
    }
 a{
  text-decoration:none;
- background-color:#ffffff;
- color: #4f4f8d;
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
 }
 section{
  width:100%;
@@ -119,6 +120,7 @@ font-size: 15px;
 .box-1,.box-2,.box-3{
  width: 300px;
  height:320px;
+ background-color: #4f4f8d;
  background-repeat: no-repeat;
  background-size: cover;
  box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -132,7 +134,7 @@ span{
  width:40px;
  height:40px;
  border-radius:50%;
- background-color:#ffffff;
+ color:#ffffff;
  display: flex;
  justify-content: center;
  align-items:center;
@@ -149,7 +151,7 @@ span{
 .box-2 p:nth-child(3),
 .box-3 p:nth-child(3){
  font-family: calibri;
- color:#8F8F8F;
+ color:white;
  text-align:center;
  width: 230px;
  margin:0px 0px 20px 0px;
@@ -219,101 +221,3 @@ footer{
  font-size:20px;
  color:#2B2B2B;
 }
-/* Contact Info */
-#contact-section{
-    background-color:#4f4f8d;
-    padding-bottom: 2%;
-  }
-  #contact-section .container h1{
-    text-align: center;
-      color: white;
-      letter-spacing: 1px;
-  }
- .container #contactpar{
-    text-align: center; 
-    margin-left: auto;
-     margin-right: auto; 
-     padding-bottom: 3%;
-     color: white;
-     letter-spacing:1px;
-  }
-
-  i.fa{
-    font-size: 22px; 
-    padding: 3%;
-    background-color: none;
-    border-radius: 80%;
-    margin: 2%;
-    cursor: pointer;
-    border:2px solid rgb(190, 190, 190);
-    color: rgb(190, 190, 190);
-  } 
-  
-  .contact-form i.fa:hover{
-    cursor: pointer;
-    border:2px solid white;
-    color: white;
-  }
-   
-    .contact-form{
-      display: grid;
-      grid-template-columns: auto auto;
-       }
-    
-    .form-info{
-      font-size: 16px;
-      font-style: italic;
-      color: white;
-      letter-spacing: 2px;
-    }
-    input{
-      padding: 10px;
-      margin:10px;
-      width: 70%;
-      background-color:rgba(136, 133, 133, 0.5);
-      color: white;
-      border: white;
-      outline:none;
-    }
-
-    input::placeholder{
-      color: white;
-    }
-  
-     textarea{
-    padding: 10px;
-    margin: 10px;     
-    width: 70%;
-    background-color:rgba(136, 133, 133, 0.5);
-    color: white;
-    border: none;
-    outline:none;
-   }
-   textarea::placeholder{
-     color: white;
-   }
-   
-    .submit{
-    width: 40%;
-    background: none;
-    padding: 4px;
-    outline: none;
-    border: 1px solid #fff;
-    color: #fff;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 33px;
-    text-align: center;
-    cursor: pointer;
-    letter-spacing: 2px;
-    margin-left: 3%;
-    border:2px solid rgb(190, 190, 190);
-    color: rgb(190, 190, 190);
-   }
-
-   .submit:hover{
-         border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-   }
